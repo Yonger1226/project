@@ -1,15 +1,16 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
 
 Vue.use(Router)
 
+const IndexIndex = r => require.ensure([],()=>r(require('../pages/index/index.vue')),'IndexIndex')
+
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
-    }
-  ]
+    mode: 'history',
+    routes: [
+        {
+            path: '/',
+            component: IndexIndex
+        }
+    ]
 })
