@@ -1,2 +1,0 @@
-webpackJsonp([0],{Qt9A:function(t,e,s){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var n={data:()=>({txt:""}),created(){this.txt="test"}},i={render:function(){var t=this.$createElement;return(this._self._c||t)("div",{staticClass:"index"},[this._v("\n   "+this._s(this.txt)+"\n")])},staticRenderFns:[]},r=s("VU/8")(n,i,!1,null,null,null);e.default=r.exports}});
-//# sourceMappingURL=0.acd3bdf5126675af39d4.js.map
